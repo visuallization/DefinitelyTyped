@@ -8,6 +8,8 @@ declare class Sticky extends React.Component<Sticky.Props> {
     static STATUS_ORIGINAL: Sticky.StatusCode.STATUS_ORIGINAL;
     static STATUS_RELEASED: Sticky.StatusCode.STATUS_RELEASED;
     static STATUS_FIXED: Sticky.StatusCode.STATUS_FIXED;
+    public update: () => void;
+    public updateInitialDimension: () => void;
 }
 
 declare namespace Sticky {
